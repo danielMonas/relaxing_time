@@ -29,13 +29,13 @@ const Header = () => {
     <>
       <div id="header">
           {/* collapsed props to change menu size using menucollapse state */}
-        <ProSidebar collapsed={menuCollapse}>
           <SidebarHeader>
             <div className="logo" onClick={menuIconClick}>
                 {/* small and big change using menucollapse state */}
                 {menuCollapse ? (<FiArrowRightCircle/>) : (<FiArrowLeftCircle/>)}
             </div>
           </SidebarHeader>
+        <ProSidebar collapsed={menuCollapse}>
           <SidebarContent>
             <Menu iconShape="square">
               <MenuItem active={true} icon={<FiHome />}><a href="/">Home</a></MenuItem>
