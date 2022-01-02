@@ -31,10 +31,9 @@ const Header = () => {
           {/* collapsed props to change menu size using menucollapse state */}
         <ProSidebar collapsed={menuCollapse}>
           <SidebarHeader>
-            {/* TODO: The logo section changes sizes between pages */}
-          <div className="logo" onClick={menuIconClick}>
-              {/* small and big change using menucollapse state */}
-              {menuCollapse ? (<FiArrowRightCircle/>) : (<FiArrowLeftCircle/>)}
+            <div className="logo" onClick={menuIconClick}>
+                {/* small and big change using menucollapse state */}
+                {menuCollapse ? (<FiArrowRightCircle/>) : (<FiArrowLeftCircle/>)}
             </div>
           </SidebarHeader>
           <SidebarContent>
