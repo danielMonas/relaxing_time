@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import React, { Component }  from 'react';
 import './memes.css';
 import '../../shared.css';
 import Navbar from '../../components/Header/Header';
