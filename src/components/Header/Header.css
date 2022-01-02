@@ -2,7 +2,7 @@
     position: absolute;
     width: 220px;
     left: 0px;
-    font-size: calc(25px + 2vmin);
+    font-size: calc(25px + 5vmin);
   }
   #header .closemenu {
     color: #000;
@@ -71,6 +71,7 @@
       overflow: hidden;
     }
   }
+
 
   .side-menu {
     position: fixed;
