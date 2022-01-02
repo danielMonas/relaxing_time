@@ -7,7 +7,7 @@ import { ProSidebar, Menu, MenuItem,
 
 //import icons from react icons
 import { FiHome, FiArrowLeftCircle, FiArrowRightCircle, 
-         FiVideo, FiMusic, FiImage } from "react-icons/fi";
+         FiVideo, FiImage } from "react-icons/fi";
 
 
 //import sidebar css from react-pro-sidebar module and our custom css 
@@ -41,7 +41,6 @@ const Header = () => {
             <Menu iconShape="square">
               <MenuItem active={true} icon={<FiHome />}><a href="/">Home</a></MenuItem>
               <MenuItem icon={<FiImage/>}><a href="memes">Memes</a></MenuItem>
-              <MenuItem icon={<FiMusic/>}><a href="music">Music</a></MenuItem>
               <MenuItem icon={<FiVideo/>}><a href="videos">Videos</a></MenuItem>
             </Menu>
           </SidebarContent>

@@ -2,17 +2,6 @@
     text-align: center;
   }
   
-  .Videos-logo {
-    height: 40vmin;
-    pointer-events: none;
-  }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .Videos-logo {
-      animation: Videos-logo-spin infinite 20s linear;
-    }
-  }
-  
   .Videos-header {
     background-color: #282c34;
     min-height: 100vh;
@@ -27,17 +16,6 @@
   .Videos-link {
     color: #61dafb;
   }
-  
-  @keyframes Videos-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
-  
   
   .side-menu {
     position: fixed;
