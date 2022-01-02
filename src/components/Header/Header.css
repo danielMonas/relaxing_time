@@ -2,6 +2,7 @@
     position: absolute;
     width: 220px;
     left: 0px;
+    font-size: calc(25px + 2vmin);
   }
   #header .pro-sidebar {
     height: 100vh;
