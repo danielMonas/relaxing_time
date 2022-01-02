@@ -40,7 +40,11 @@ export default class Memes extends Component {
       <div className="Memes">
         <header className="Page-header">
           <Navbar/>
-          <img src={`https://i.imgur.com/${this.getRandomId()}.png`} alt='Whoops failed to load there'></img>
+          <img 
+            src={`https://i.imgur.com/${this.getRandomId()}.png`} 
+            alt='Whoops failed to load there, try to refresh!' 
+            style={{width: 'auto', height: '70vh'}}>
+          </img>
         </header>
       </div>
     );
