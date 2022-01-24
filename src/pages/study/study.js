@@ -24,15 +24,14 @@ export default class Study extends Component {
         <header className="Page-header">
           <Navbar/>
           <div>
-            Hello there you busy student!<br/>
-            Hope this will help you
-            <YouTube videoId={"5qap5aO4i9A"} opts={this.opts}/>
-            <img 
-              src={`https://i.imgur.com/Bx1wmWW.jpeg`} 
-              alt='Whoops failed to load there, try to refresh!' 
-              style={{width: 'auto', height: '70vh'}}>
-            </img>
+          <br/><br/>Hello there you busy student!<br/><br/>
           </div>
+          <YouTube videoId={"5qap5aO4i9A"} opts={this.opts}/>
+          <img 
+            src={`https://i.imgur.com/Bx1wmWW.jpeg`} 
+            alt='Whoops failed to load there, try to refresh!' 
+            style={{width: 'auto', height: '70vh'}}>
+          </img>
         </header>
       </div>
     );
