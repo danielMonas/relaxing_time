@@ -6,7 +6,7 @@ import './App.css';
 import Home from "./pages/home/home";
 import Memes from "./pages/memes/memes";
 import Videos from "./pages/videos/videos";
-
+import Study from "./pages/study/study";
 
 const App = () => (
   <Router>
@@ -14,6 +14,7 @@ const App = () => (
       <Route exact path="/" element={<Home />}> </Route>
       <Route path="/memes" element={<Memes />}> </Route>
       <Route path="/videos" element={<Videos />}> </Route>
+      <Route path="/study" element={<Study />}> </Route>
     </Routes>
   </Router>
 );

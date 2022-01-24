@@ -45,11 +45,14 @@ export default class Videos extends Component {
   }
 
   render(props, state) {
+    let options = {
+      playerVars: {autoplay: 1 },
+    };
     return (
       <div className="Videos">
         <header className="Page-header">
           <Navbar/>
-          <YouTube videoId={this.getRandomId()}/>
+          <YouTube videoId={this.getRandomId()} opts={options}/>
         </header>
       </div>
     );
